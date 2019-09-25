@@ -5,7 +5,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -24,6 +24,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -53,7 +54,117 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+html, h2, body, button {
+	// height: 100%;
+	font-family: 'Raleway', sans-serif;
+	color: rgb(217, 232, 255);
+	
 }
 
+.navBar {
+	color: rgb(19, 1, 1);
+	padding-top: 4%;
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;	
+	padding-left: 12%;
+	padding-right: 12%;
+	font-size: 1.25rem;
+	padding-bottom: 0%;
+}
+
+.container {
+	background-image: url(/img/redblackabstract1.jpg);
+	margin: 0 auto;
+	padding-top: 5%;
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	
+	
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+.nameBox {
+	// border: 3px solid greenyellow;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-bottom: 4%;
+	padding-top: 2%;
+	background-color: rgba(0, 0, 0, 0.589);
+	margin-bottom: 0%;
+
+	.contactBox {
+		// border: 8px solid rgb(145, 66, 235);
+		display: block;
+		font-size: 1.8rem;
+		text-align: right;
+		margin-bottom: 0%;
+		
+		}
+	}
+	 
+
+.bio {
+	background-color: rgba(0, 0, 0, 0.589);
+	padding-top: 2%;
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-bottom: 2%;
+	font-size: 1.05rem;
+	margin-bottom: 0%;
+}
+.lowerBox {
+	// border: 3px solid pink;
+	background-color: rgba(0, 0, 0, 0.589);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-left: 12%;
+	padding-right: 12%;
+	padding-bottom: 6%;
+
+	.skills {
+		// border: 3px solid darkturquoise;
+		text-align: center;
+		line-height: 1.1;
+		vertical-align: middle;
+		font-size: 1.01rem;
+
+	}
+	
+
+	.work {
+		// border: 3px solid orange;
+		text-align: center;
+		
+		
+		
+	}
+}
+button {
+	color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 180px;
+    height: 50px;
+    margin: 0 auto;
+	}
+
+footer {
+	padding: 2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-left: 37%;
+	padding-right: 37%;
+	
+}
