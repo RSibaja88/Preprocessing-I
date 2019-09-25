@@ -133,14 +133,48 @@ html,
 h2,
 body,
 button {
-  height: 100%;
   font-family: 'Raleway', sans-serif;
-  color: white;
+  color: #d9e8ff;
 }
-#container {
-  background-color: blue;
+.container {
+  background-image: url(/img/redblackabstract1.jpg);
+  margin: 0 auto;
+  padding-top: 10%;
+  padding-left: 12%;
+  padding-right: 12%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 .nameBox {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  padding-bottom: 4%;
+  padding-top: 5%;
+  background-color: rgba(240, 248, 255, 0.13);
+  margin-bottom: 0%;
+}
+.nameBox .contactBox {
+  display: block;
+  font-size: 1.8rem;
+  text-align: right;
+  margin-bottom: 0%;
+}
+.bio {
+  background-color: rgba(240, 248, 255, 0.13);
+  margin-top: 0%;
+  padding-top: 2%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 2%;
+  font-size: 1.05rem;
+  margin-bottom: 0%;
+}
+.lowerBox {
+  border: 3px solid pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 12%;
+  padding-right: 12%;
 }
