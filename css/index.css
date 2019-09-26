@@ -168,7 +168,11 @@ a {
   justify-content: center;
   padding-bottom: 4%;
   padding-top: 2%;
+<<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.527);
+=======
+  background-color: rgba(0, 0, 0, 0.589);
+>>>>>>> 0b126fc4924476c8797be6659ba744b6e76abf42
   margin-bottom: 0%;
 }
 .nameBox .contactBox {
@@ -178,7 +182,11 @@ a {
   margin-bottom: 0%;
 }
 .bio {
+<<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.527);
+=======
+  background-color: rgba(0, 0, 0, 0.589);
+>>>>>>> 0b126fc4924476c8797be6659ba744b6e76abf42
   padding-top: 2%;
   padding-left: 8%;
   padding-right: 8%;
@@ -187,7 +195,11 @@ a {
   margin-bottom: 0%;
 }
 .lowerBox {
+<<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.527);
+=======
+  background-color: rgba(0, 0, 0, 0.589);
+>>>>>>> 0b126fc4924476c8797be6659ba744b6e76abf42
   display: flex;
   flex-direction: row;
   justify-content: space-around;
