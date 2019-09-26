@@ -60,17 +60,24 @@ html, h2, body, button {
 	color: rgb(217, 232, 255);
 	
 }
+//Variables//
+@pd12: 12%;
+@jc: space-around;
+@df: flex;
+@gry: rgba(0, 0, 0, 0.527);
+@r: row;
 
 .navBar {
 	color: rgb(19, 1, 1);
 	padding-top: 4%;
-	display: flex;
-    flex-direction: row;
+	display: @df;
+    flex-direction: @r;
 	justify-content: space-between;	
-	padding-left: 12%;
-	padding-right: 12%;
+	padding-left: @pd12;
+	padding-right: @pd12;
 	font-size: 1.25rem;
 	padding-bottom: 0%;
+	
 }
 
 .container {
@@ -94,12 +101,12 @@ a {
 
 .nameBox {
 	// border: 3px solid greenyellow;
-	display: flex;
-	flex-direction: row;
+	display: @df;
+	flex-direction: @r;
 	justify-content: center;
 	padding-bottom: 4%;
 	padding-top: 2%;
-	background-color: rgba(0, 0, 0, 0.589);
+	background-color: @gry;
 	margin-bottom: 0%;
 
 	.contactBox {
@@ -114,7 +121,7 @@ a {
 	 
 
 .bio {
-	background-color: rgba(0, 0, 0, 0.589);
+	background-color: @gry;
 	padding-top: 2%;
 	padding-left: 8%;
 	padding-right: 8%;
@@ -124,12 +131,12 @@ a {
 }
 .lowerBox {
 	// border: 3px solid pink;
-	background-color: rgba(0, 0, 0, 0.589);
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	padding-left: 12%;
-	padding-right: 12%;
+	background-color:@gry;
+	display: @df;
+	flex-direction: @r;
+	justify-content: @jc;
+	padding-left: @pd12;
+	padding-right: @pd12;
 	padding-bottom: 6%;
 
 	.skills {
@@ -161,9 +168,9 @@ button {
 
 footer {
 	padding: 2%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	display: @df;
+	flex-direction: @r;
+	justify-content: @jc;
 	padding-left: 37%;
 	padding-right: 37%;
 	

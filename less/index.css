@@ -168,7 +168,7 @@ a {
   justify-content: center;
   padding-bottom: 4%;
   padding-top: 2%;
-  background-color: rgba(0, 0, 0, 0.589);
+  background-color: rgba(0, 0, 0, 0.527);
   margin-bottom: 0%;
 }
 .nameBox .contactBox {
@@ -178,7 +178,7 @@ a {
   margin-bottom: 0%;
 }
 .bio {
-  background-color: rgba(0, 0, 0, 0.589);
+  background-color: rgba(0, 0, 0, 0.527);
   padding-top: 2%;
   padding-left: 8%;
   padding-right: 8%;
@@ -187,7 +187,7 @@ a {
   margin-bottom: 0%;
 }
 .lowerBox {
-  background-color: rgba(0, 0, 0, 0.589);
+  background-color: rgba(0, 0, 0, 0.527);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
