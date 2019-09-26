@@ -77,6 +77,11 @@ html, h2, body, button {
 	padding-right: @pd12;
 	font-size: 1.25rem;
 	padding-bottom: 0%;
+
+	a {
+		text-decoration: none;
+		color: rgb(0, 0, 0);
+	}
 	
 }
 
@@ -90,88 +95,90 @@ html, h2, body, button {
 	margin-right: 8%;
 	margin-top: 1%;
 	margin-bottom: 2%;
-	
-	
-}
 
-a {
-	text-decoration: none;
-	color: rgb(0, 0, 0);
-}
-
-.nameBox {
-	// border: 3px solid greenyellow;
-	display: @df;
-	flex-direction: @r;
-	justify-content: center;
-	padding-bottom: 4%;
-	padding-top: 2%;
-	background-color: @gry;
-	margin-bottom: 0%;
-
-	.contactBox {
-		// border: 8px solid rgb(145, 66, 235);
-		display: block;
-		font-size: 1.8rem;
-		text-align: right;
+	.nameBox {
+		// border: 3px solid greenyellow;
+		display: @df;
+		flex-direction: @r;
+		justify-content: center;
+		padding-bottom: 4%;
+		padding-top: 2%;
+		background-color: @gry;
 		margin-bottom: 0%;
-		
+	
+		.contactBox {
+			// border: 8px solid rgb(145, 66, 235);
+			display: block;
+			font-size: 1.8rem;
+			text-align: right;
+			margin-bottom: 0%;
+			
 		}
 	}
+	
+	.bio {
+		background-color: @gry;
+		padding-top: 2%;
+		padding-left: 8%;
+		padding-right: 8%;
+		padding-bottom: 2%;
+		font-size: 1.05rem;
+		margin-bottom: 0%;
+	}
+	
+	.lowerBox {
+		// border: 3px solid pink;
+		background-color:@gry;
+		display: @df;
+		flex-direction: @r;
+		justify-content: @jc;
+		padding-left: @pd12;
+		padding-right: @pd12;
+		padding-bottom: 6%;
+	
+		.skills {
+			// border: 3px solid darkturquoise;
+			text-align: center;
+			line-height: 1.1;
+			vertical-align: middle;
+			font-size: 1.01rem;
+	
+		}
+		
+	
+		.work {
+			// border: 3px solid orange;
+			text-align: center;
+
+			button {
+				color: black;
+				background-color: white;
+				border: 1px solid black;
+				width: 180px;
+				height: 50px;
+				margin: 0 auto;
+			}			
+		}
+	}
+		footer {
+		padding: 2%;
+		display: @df;
+		flex-direction: @r;
+		justify-content: @jc;
+		padding-left: 37%;
+		padding-right: 37%;
+	
+		}
+
+}
+
+
+
+
+
 	 
 
-.bio {
-	background-color: @gry;
-	padding-top: 2%;
-	padding-left: 8%;
-	padding-right: 8%;
-	padding-bottom: 2%;
-	font-size: 1.05rem;
-	margin-bottom: 0%;
-}
-.lowerBox {
-	// border: 3px solid pink;
-	background-color:@gry;
-	display: @df;
-	flex-direction: @r;
-	justify-content: @jc;
-	padding-left: @pd12;
-	padding-right: @pd12;
-	padding-bottom: 6%;
 
-	.skills {
-		// border: 3px solid darkturquoise;
-		text-align: center;
-		line-height: 1.1;
-		vertical-align: middle;
-		font-size: 1.01rem;
 
-	}
-	
 
-	.work {
-		// border: 3px solid orange;
-		text-align: center;
-		
-		
-		
-	}
-}
-button {
-	color: black;
-    background-color: white;
-    border: 1px solid black;
-    width: 180px;
-    height: 50px;
-    margin: 0 auto;
-	}
 
-footer {
-	padding: 2%;
-	display: @df;
-	flex-direction: @r;
-	justify-content: @jc;
-	padding-left: 37%;
-	padding-right: 37%;
-	
-}
