@@ -201,6 +201,14 @@ button {
   vertical-align: middle;
   font-size: 1.01rem;
 }
+.container .lowerBox .skills button {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+}
 .container .lowerBox .work {
   text-align: center;
 }
